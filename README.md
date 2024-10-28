@@ -45,7 +45,7 @@ gsutil -m cp -r \
 ```bash
 mkdir rnaseq
 cd rnaseq
-gsutil -m rsync -r -x '.*\.(log|txt|json)$' gs://jlf-rcrf-immuno-outputs/JLF-100-038-v2/final_results/final_results_BG/rnaseq .
+gsutil -m rsync -r -x '.*\.(bam|bai)$' gs://jlf-rcrf-immuno-outputs/JLF-100-038-v2/final_results/final_results_BG/rnaseq .
 ```
 
 ```bash
